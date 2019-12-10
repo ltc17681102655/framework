@@ -1,11 +1,6 @@
 package framework.concurrents;
 
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
 public class ImplRunnable_Synchronized implements Runnable {
-
-    private Lock lock = new ReentrantLock();
 
     private int i = 100;
 
@@ -17,10 +12,18 @@ public class ImplRunnable_Synchronized implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            syn();
+            //同步方法
+//            syn();
+            //同步代码块
+            synchronized (this) {
+                if (i > 0) {
+                    System.out.println(Thread.currentThread().getName() + "==" + i--);
+                }
+            }
         }
     }
 
+    //同步方法
     private synchronized void syn() {
         if (i > 0) {
             System.out.println(Thread.currentThread().getName() + "==" + i--);
