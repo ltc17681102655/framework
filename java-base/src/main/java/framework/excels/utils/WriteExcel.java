@@ -1,6 +1,6 @@
 package framework.excels.utils;
 
-import framework.excels.model.TableHeaderExcelProperty;
+import framework.excels.model.ExcelModel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,13 +10,13 @@ public class WriteExcel {
 
     public static void main(String[] args) {
         String filePath = "F://write.xlsx";
-        ArrayList<TableHeaderExcelProperty> data = new ArrayList<>();
+        ArrayList<ExcelModel> data = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
-            TableHeaderExcelProperty tableHeaderExcelProperty = new TableHeaderExcelProperty();
-            tableHeaderExcelProperty.setName("cmj" + i);
-            tableHeaderExcelProperty.setAge(22 + i);
-            tableHeaderExcelProperty.setSchool("清华大学" + i);
-            data.add(tableHeaderExcelProperty);
+            ExcelModel excelModel = new ExcelModel();
+            excelModel.setName("cmj" + i);
+            excelModel.setAge(22 + i);
+            excelModel.setSchool("清华大学" + i);
+            data.add(excelModel);
         }
 
         ExcelUtil.writeWithTemplate(filePath, data);

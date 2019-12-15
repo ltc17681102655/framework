@@ -12,7 +12,7 @@ import lombok.EqualsAndHashCode;
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class TableHeaderExcelProperty extends BaseRowModel {
+public class ExcelModel extends BaseRowModel {
 
     /**
      * value: 表头名称
