@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4d1c38a2-4518-4865-a068-107f00d0049f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/java-base/src/main/java/framework/base/ByteDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java-base/src/main/java/framework/excel/ExcelReadTest.java" afterDir="false" />
@@ -14,11 +15,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
+=======
+    <list default="true" id="61f9cb30-5a79-409b-b158-b8a1d2fb1948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/export/ExportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/model/TableHeaderExcelProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/model/ExcelModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/utils/WriteExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/framework/excels/utils/WriteExcel.java" afterDir="false" />
+>>>>>>> master
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/java-base/target/" />
-    <ignored path="$PROJECT_DIR$/utils/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,7 @@
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
@@ -53,6 +59,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> master
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -68,6 +76,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -107,6 +116,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> master
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -121,21 +132,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1Uxl183RV3jwLEL7zOzktMvRPBi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -213,6 +214,8 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+=======
+>>>>>>> master
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -224,7 +227,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -279,6 +282,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ExcelReadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="framework.excel.ExcelReadTest" />
       <module name="java-base" />
@@ -295,11 +299,19 @@
     </configuration>
     <configuration name="ReadExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="framework.excel.test.ReadExcel" />
+=======
+    <configuration name="ReadExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="framework.excels.ReadExcel" />
+>>>>>>> master
       <module name="java-base" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="framework.excel.test.*" />
+=======
+          <option name="PATTERN" value="framework.excels.*" />
+>>>>>>> master
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,6 +333,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriteExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="framework.excels.utils.WriteExcel" />
+      <module name="java-base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.excels.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -335,6 +361,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
@@ -354,18 +381,32 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ReadExcel" />
+<<<<<<< HEAD
         <item itemvalue="Application.ExcelReadTest" />
+=======
+        <item itemvalue="Application.WriteExcel" />
+>>>>>>> master
         <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d1c38a2-4518-4865-a068-107f00d0049f" name="Default Changelist" comment="" />
+      <changelist id="61f9cb30-5a79-409b-b158-b8a1d2fb1948" name="Default Changelist" comment="" />
       <created>1573468736795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -379,6 +420,7 @@
       <workItem from="1575444435579" duration="6735000" />
       <workItem from="1575625682832" duration="5746000" />
       <workItem from="1575855003272" duration="1191000" />
+<<<<<<< HEAD
       <workItem from="1575942031636" duration="10545000" />
       <workItem from="1576130393552" duration="1709000" />
       <workItem from="1576218305292" duration="12185000" />
@@ -464,8 +506,32 @@
       <window_info anchor="right" id="Gradle" order="9" />
     </layout-to-restore>
   </component>
+=======
+      <workItem from="1575942031636" duration="8377000" />
+      <workItem from="1576305913075" duration="401000" />
+      <workItem from="1576306333605" duration="303000" />
+      <workItem from="1576306660324" duration="1380000" />
+      <workItem from="1576308133775" duration="2285000" />
+      <workItem from="1576379285671" duration="1562000" />
+    </task>
+    <servers />
+  </component>
+>>>>>>> master
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -473,12 +539,12 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/java-base/src/main/java/framework/concurrents/ImplRunnable_Synchronized_object.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -955,6 +1021,8 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> master
   <component name="masterDetails">
     <states>
       <state key="GlobalLibrariesConfigurable.UI">
